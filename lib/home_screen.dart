@@ -29,9 +29,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     SizedBox(height: 90,),
 
-                    Text(userInput.toString(),style: TextStyle(color: Colors.white,fontSize: 30),),
+                    Text(userInput.toString(),style: TextStyle(color: Colors.white,fontSize: 40),),
                     SizedBox(height: 10,),
-                    Text(answer.toString(),style: TextStyle(color: Colors.white,fontSize: 30),)
+                    Text(answer.toString(),style: TextStyle(color: Colors.white,fontSize: 40),)
                   ],
                 ),
               ),
